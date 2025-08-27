@@ -1,0 +1,88 @@
+/* Base styles */
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #1a2a44;
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card {
+  background-color: #2c3e50;
+  border: none;
+  transition: transform 0.3s ease;
+  color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card .product-img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #00b4db;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0083b0;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff33;
+}
+
+.form-control {
+  background-color: #34495e;
+  color: #fff;
+  border: 1px solid #00b4db;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
+
+.form-control:focus {
+  border-color: #00b4db;
+  box-shadow: 0 0 5px rgba(0, 180, 219, 0.5);
+}
+
+.alert {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+}
+
+.cart-badge {
+  background-color: red;
+  font-size: 0.75rem;
+  padding: 3px 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+}
+
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.wallet-info {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
